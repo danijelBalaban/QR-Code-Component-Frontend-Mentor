@@ -17,7 +17,7 @@ main {
 	align-items: center;
 	width: 260px;
 	height: auto;
-	padding: 17px 17px 43px 17px;
+	padding: 17px;
 	gap: 20px;
 	background: hsl(0, 0%, 100%);
 	box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.1);
