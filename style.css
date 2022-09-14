@@ -11,12 +11,12 @@ body {
 	font-weight: 400;
 }
 
-.card {
+main {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	width: 375px;
+	width: 260px;
 	height: auto;
 	padding: 17px 17px 43px 17px;
 	gap: 20px;
@@ -25,28 +25,20 @@ body {
 	border-radius: 20px;
 }
 
-.card_title {
+h1 {
 	width: 261px;
 	color: hsl(218, 44%, 22%);
 	font-size: 21px;
 	font-weight: 700;
 }
 
-.card_description {
+p {
 	width: 250px;
 	color: hsl(220, 15%, 55%);
 }
 
-.card_image {
+img {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
-}
-
-/* Mobile */
-@media screen and (max-width: 425px) {
-	.card {
-		width: auto;
-		margin: 0 20px;
-	}
 }
