@@ -12,27 +12,26 @@ body {
 }
 
 main {
+	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 260px;
+	width: 183px;
 	height: auto;
-	padding: 17px;
-	gap: 20px;
+	padding: 17px 17px 43px 17px;
+	gap: 12px;
 	background: hsl(0, 0%, 100%);
 	box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
 }
 
 h1 {
-	width: 261px;
 	color: hsl(218, 44%, 22%);
-	font-size: 21px;
 	font-weight: 700;
 }
 
 p {
-	width: 250px;
+	font-size: 12px;
 	color: hsl(220, 15%, 55%);
 }
 
