@@ -50,6 +50,7 @@ main {
 }
 
 h1 {
+	font-size: 15px;
 	color: hsl(218, 44%, 22%);
 	font-weight: 700;
 }
